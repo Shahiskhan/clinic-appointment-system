@@ -1,10 +1,15 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+const databaseUrl = process.env.DATABASE_URL;
+
+if (!databaseUrl) {
+  throw new Error('DATABASE_URL is required. Copy backend/.env.example to backend/.env and set the Supabase connection string.');
+}
+
 export const ENV = {
   PORT: process.env.PORT || '5000',
-  // Local MySQL ki jagah Supabase URL fallback add kar dein (optional)
-  DATABASE_URL: process.env.DATABASE_URL || 'postgresql://postgres:Shahiskhanktk@db.mobfcxotabrygmcqxgqd.supabase.co:5432/postgres',
+  DATABASE_URL: databaseUrl,
 
   // Safepay Pakistan
   SAFEPAY_API_KEY: process.env.SAFEPAY_API_KEY || 'sec_sandbox_example_key_safepay',

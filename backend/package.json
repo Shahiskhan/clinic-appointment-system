@@ -1,7 +1,7 @@
 {
   "name": "clinic-appointment-backend",
   "version": "1.0.0",
-  "description": "Backend API for Hybrid Clinic Management & Appointment Booking with MySQL, Prisma, Safepay & PayFast",
+  "description": "Backend API for Hybrid Clinic Management & Appointment Booking with Supabase PostgreSQL, Prisma, Safepay & PayFast",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
