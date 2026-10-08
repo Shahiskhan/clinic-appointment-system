@@ -62,7 +62,7 @@ const MainContent: React.FC = () => {
                   </div>
                 </div>
                 <div className="relative min-h-[280px] overflow-hidden lg:min-h-[460px]">
-                  <img src="https://images.unsplash.com/photo-1638202993928-7d113b8a6b1d?auto=format&fit=crop&q=85&w=1200" alt="Doctor consulting a patient" className="absolute inset-0 h-full w-full object-cover" />
+                  <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=1200" alt="Doctor consulting a patient" className="absolute inset-0 h-full w-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#123b3a] via-transparent to-[#123b3a]/10 lg:bg-gradient-to-r lg:from-[#123b3a]/20 lg:to-transparent" />
                   <div className="absolute bottom-5 left-5 right-5 rounded-2xl border border-white/20 bg-[#123b3a]/80 p-4 backdrop-blur-md sm:left-auto sm:max-w-xs">
                     <p className="text-xs font-semibold uppercase tracking-[0.18em] text-emerald-200">MCA Clinic Lahore</p>
